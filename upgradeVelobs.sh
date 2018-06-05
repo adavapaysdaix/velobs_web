@@ -13,7 +13,7 @@ echo -n "$(tput setaf 2)Nom du répertoire contenant les sources de velobs à pa
 read velobsDev
 echo -n "$(tput setaf 2)Nom du répertoire contenant les sources de velobs actuellement en production? $(tput sgr 0)"
 read velobsProd
-echo -n "$(tput setaf 2)Version de VelObs qui sera passée en production - défaut $defaultVersion? $(tput sgr 0)"
+echo -n "$(tput setaf 2)Version (actuelle) de VelObs qui sera passée en production - défaut $defaultVersion? $(tput sgr 0)"
 read velobsVersion
 
 if [  -z $velobsVersion ]
