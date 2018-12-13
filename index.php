@@ -6,7 +6,7 @@
 <html>
 	<head>
 		<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
-		<title><?php echo PAGE_TITLE ?> v1.6</title>
+		<title><?php echo PAGE_TITLE ?> v1.6.1</title>
 		<link rel="shortcut icon" type="image/png" href="resources/favicon/favicon.ico" />
 	</head>
 	<body onunload="setCookie()">
