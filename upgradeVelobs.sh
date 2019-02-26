@@ -5,7 +5,7 @@
 #renomme le dossier de production en le suffixant avec un timestamp
 #renomme le dossier des sources à passer en production avec le nom du répertoire de production
 
-defaultVersion=V1_5_2
+defaultVersion=V1_6_2
 
 echo "$(tput setaf 1)Ce script doit se trouver au même niveau que les répertoires source de velobs, de production comme la version à mettre en production. Si ce n'est pas le cas, veuillez quitter et déplacer ce script et le répertoire contenant la nouvelle version de velobs au même niveau que le répertoire de velobs en production SVP.$(tput sgr 0)"
 echo ""
